@@ -24,13 +24,24 @@ function nowServing(line) {
   }
 }
 
-function takeANumber(line, name){
-  line.push(name);
+// function takeANumber(line, name){
+//   line.push(name);
   
-  console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
+//   console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
   
-  return "Welcome, " + name + ". You are number " + line.length + " in line."
+//   return "Welcome, " + name + ". You are number " + line.length + " in line."
+// }
+
+var lastNumberTaken = 1; 
+function takeANumber() {
+  
+  katzDeli.push(lastNumberTaken)
+  lastNumberTaken++
+  
+return katzDeli 
 }
+
+
 
 
 
